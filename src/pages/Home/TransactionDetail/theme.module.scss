@@ -1,0 +1,50 @@
+.transactionDetail {
+  height: calc(100% - 4rem);
+  margin-bottom: 4rem;
+  flex: 1;
+  border: 1px solid #fcd392;
+
+  .content {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    padding: 1rem;
+
+    .label {
+      font-weight: 700;
+      font-size: 0.8rem;
+      margin: 0;
+      text-transform: uppercase;
+      color: #696969;
+
+      margin-top: 1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .value {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.banner {
+  height: 100%;
+  flex: 1;
+
+  .mesh {
+    height: calc(100% - 4rem);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#f9a825 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 15px 15px;
+    color: #ff000000;
+  }
+}

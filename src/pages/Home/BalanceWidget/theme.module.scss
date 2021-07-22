@@ -1,0 +1,18 @@
+.balanceContainer {
+  width: fit-content;
+  background-color: #eee;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .label {
+    font-weight: 700;
+  }
+
+  .value {
+    font-size: 4rem;
+    margin: 0.5rem;
+    text-align: center;
+  }
+}

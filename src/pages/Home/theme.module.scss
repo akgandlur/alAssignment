@@ -1,0 +1,33 @@
+.homeContainer {
+  height: calc(100vh - 10rem);
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  .tabs {
+    width: 4rem;
+    height: 100%;
+  }
+
+  .tabContent {
+    height: 100%;
+    flex: 1;
+    background-color: #fff;
+    border-radius: 2rem;
+
+    .container {
+      height: 100%;
+      padding: 2rem;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      .transactionsContainer {
+        height: 100%;
+        flex: 3;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

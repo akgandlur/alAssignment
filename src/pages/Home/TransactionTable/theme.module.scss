@@ -1,0 +1,21 @@
+.tableContainer {
+  max-height: 32rem;
+  overflow-y: auto;
+
+  .dateContainer {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .time {
+      color: #696969;
+    }
+  }
+
+  .credit {
+    color: #43a047;
+  }
+
+  .debit {
+    color: #e53935;
+  }
+}

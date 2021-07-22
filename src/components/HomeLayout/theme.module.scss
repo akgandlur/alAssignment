@@ -1,0 +1,21 @@
+.adminLayout {
+  background-color: #f2f5f9;
+  height: 100vh;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .grid {
+      margin-right: 0 !important;
+
+      .gridColumn {
+        padding-right: 0 !important;
+      }
+    }
+  }
+}
